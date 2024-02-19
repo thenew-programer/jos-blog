@@ -1,0 +1,4 @@
+[submodule "bouryalblog/public"]
+	path = bouryalblog/public
+	url = git@github.com:thenew-programer/bouryalblog.github.io.git
+	branch = main
