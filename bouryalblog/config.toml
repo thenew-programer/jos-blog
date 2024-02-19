@@ -1,4 +1,56 @@
 baseURL = 'https://bouryalblog.github.io/'
 languageCode = 'en-us'
-title = 'Bouryal Blog'
+title = 'Bouryal'
 theme = 'archie'
+Copyright = '© Bouryal'
+
+
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+enableEmoji = true
+pygmentscodefencesguesssyntax = true
+enableGitInfo = true
+
+paginate=3 # articles per page
+
+[params]
+	mode="toggle" # color-mode → light,dark,toggle or auto
+	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
+	subtitle = "Navigating Finance, Economics, and Code: Insights from a Bachelor of Applied Finance Student"
+	mathjax = false # enable MathJax support
+	katex = false # enable KaTeX support
+	favicon = "https://img.icons8.com/ios-filled/50/blogger.png"
+
+# Social Tags
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/thenew-programer"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/youssef_bouryal/"
+
+# Main menu Items
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 1
+
+[[menu.main]]
+name = "Home"
+url = "https://bouryal.vercel.app"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "https://bouryal.vercel.app#about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
