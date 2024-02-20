@@ -7,9 +7,7 @@ Copyright = '© Bouryal'
 
 pygmentsstyle = "monokai"
 pygmentscodefences = true
-enableEmoji = true
 pygmentscodefencesguesssyntax = true
-enableGitInfo = true
 
 paginate=3 # articles per page
 
@@ -17,8 +15,8 @@ paginate=3 # articles per page
 	mode="toggle" # color-mode → light,dark,toggle or auto
 	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
 	subtitle = "Navigating Finance, Economics, and Code: Insights from a Bachelor of Applied Finance Student"
-	mathjax = false # enable MathJax support
-	katex = false # enable KaTeX support
+	mathjax = true # enable MathJax support
+	katex = true # enable KaTeX support
 	favicon = "https://img.icons8.com/ios-filled/50/blogger.png"
 
 # Social Tags
